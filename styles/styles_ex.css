@@ -1,0 +1,225 @@
+#ideas {
+  background: url("../img/fullbg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  max-width: 100%;
+  margin-top: -15px;
+}
+
+#ideas p {
+  font-size: 73px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 97px;
+}
+
+#culture {
+  margin-top: -25px;
+}
+
+#experience {
+  margin-top: 20px;
+}
+
+#contact {
+  background: #c0392b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 40px;
+}
+
+header {
+  max-width: 100%;
+  height: 445px;
+  text-align: center;
+  background: #c0392b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*ul.list {
+  list-style: none;
+}*/
+
+header li {  
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px 10px;
+}
+
+header p {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+
+h1 {
+  font-size: 116px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  line-height: 105px;
+}
+
+a {
+  text-decoration: none;
+  color: #440c74;
+}
+
+article > div > button > a {
+  color: #5f0783;
+}
+
+div > button > a {
+  color: #ffffff;
+}
+
+article {
+  color: #5f0783;
+  font-family: 'Roboto Mono', monospace;
+  width: 80%;
+  padding: 70px 0px 0px 200px;
+}
+
+h2 {
+  font-size: 27px;
+  /*margin-top: -30px;*/
+}
+
+article.left h2 {
+  font-size: 27px;
+  margin-top: -35px;
+}
+
+article p {
+  font-size: 12px;
+  width: 80%;
+}
+
+.half {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+article button {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #8e44ad;
+  padding: 7px 17px;
+  background-color: #ffffff;
+}
+
+article img {
+  width: 409px;
+  display: block;
+}
+
+#contact p {
+  font-size: 73px;
+  color: #5f0783;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact span {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #5f0783;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact button {
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  padding: 7px 47px;
+  background-color: transparent;
+}
+
+div.left-padding {
+  padding: 0px 0px 0px 200px;
+}
+
+div.left-padding > div {
+  width: 49%;
+  display: inline-block;
+}
+
+.b-spacer {
+  padding-bottom: 20px;
+}
+
+.t-spacer {
+  padding-top: 20px;
+}
+
+.v-align {
+  vertical-align: top;
+}
+
+textarea {
+  background-color: transparent;
+  border: 1px solid #5f0783;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
+  color: #5f0783;
+  font: 13px 'Roboto Mono', monospace;
+  resize: none; /* usuwa element z prawego dolnego rogu */
+}
+
+textarea:focus, input:focus { /* jak to zrobić dobrze dla inputa? */
+    outline-offset: -2px;
+    outline-color: #ffffff;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #5f0783;
+  border-left: 0px;
+  background-color: transparent;
+  width: 382px;
+  height: 40px;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
+  color: #5f0783;
+  font: 13px 'Roboto Mono', monospace;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #5f0783;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #5f0783;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #5f0783;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #5f0783;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #5f0783;
+}
+
+label[for="message"] {
+    color: #5f0783;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
