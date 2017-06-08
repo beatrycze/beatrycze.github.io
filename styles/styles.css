@@ -115,13 +115,14 @@ h2 {
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
   color: #5f0783;
+  line-height: 1.5;
 }
 
 #projects button, #culture button, #experience button {
   font-size: 15px;
   font-weight: bold;
   text-align: center;
-  border: 1px solid #8e44ad;
+  border: 1px solid #e61bca;
   padding: 7px 17px;
   background-color: #ffffff;
 }
