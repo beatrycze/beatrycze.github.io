@@ -47,6 +47,10 @@ header p {
   letter-spacing: 4px;
 }
 
+header a {
+  color: #5f0783;
+}
+
 h1 {
   font-size: 116px;
   color: #ffffff;
@@ -59,37 +63,9 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #440c74;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto; /*wyśrodkowanie*/
-  padding: 50px;
-}
-
-.left, .right {
-  display: inline-block;
-  width: 50%;
-}
-
-/*dzięki 'float' lewa kolumna,
- jest opływana przez pozostałe
- elementy - w tym wypadku kolumnę prawą*/
-.left {
-  float: left;
-}
-
-.clear {
-  clear: both;
-}
-
-.relative-top-left {
-  position: relative;
-  top: -60px;
-  left: 100px;
-}
-
+/* TODO */
 .number {
   font-size: 220px;
   font-family: 'Montserrat', sans-serif;
@@ -102,31 +78,26 @@ a {
 
 span.second {
   color: #ff6b83;
-}
-
-article > div > button > a {
-  color: #5f0783;
+  padding-left: 15px;
 }
 
 div > button > a {
-  color: #ffffff;
-}
-
-article {
   color: #5f0783;
-  font-family: 'Roboto Mono', monospace;
 }
 
 h2 {
   font-size: 27px;
+  font-family: 'Roboto Mono', monospace;
+  color: #5f0783;
 }
 
-article p {
+#projects p, #culture p, #experience p {
   font-size: 12px;
-  max-width: 80%;
+  font-family: 'Roboto Mono', monospace;
+  color: #5f0783;
 }
 
-article button {
+#projects button, #culture button, #experience button {
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -135,14 +106,9 @@ article button {
   background-color: #ffffff;
 }
 
-article img {
-  width: 409px;
-  display: block;
-}
-
-div.right img {
-  position: relative;
-  left: 80px;
+div img {
+  width: 100%;
+  margin-top: 50px;
 }
 
 #ideas {
@@ -165,14 +131,14 @@ div.right img {
   margin: 0;
 }
 
-#experience, #projects {
-  margin-top: 25px;
+#culture {
+  padding-bottom: 50px;
 }
 
 #contact {
   background: linear-gradient(45deg, #ff6b83 0%, #9326f1 100%);
-  max-width: 100%;
-  height: 355px;
+  width: 100%;
+  margin-top: 25px;
 }
 
 #contact p {
@@ -198,6 +164,7 @@ div.right img {
   background-color: transparent;
 }
 
+/* TODO bootstrap offset lub @media, żeby się centrowało */
 div.contact {
   display: inline-block;
   position: relative;
@@ -205,8 +172,8 @@ div.contact {
 }
 
 div.form {
-  padding-left: 80px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 form > div {
