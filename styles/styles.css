@@ -65,20 +65,40 @@ a {
   text-decoration: none;
 }
 
-/* TODO */
-.number {
+div.projects::after {
+  content: '1.';
   font-size: 220px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   color: #9326f1;
   position: absolute;
-  left: -120px;
   top: -20px;
+  left: -70px;
   z-index: -1;
 }
 
-span.second {
+div.culture::after {
+  content: '2.';
+  font-size: 220px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   color: #ff6b83;
-  padding-left: 15px;
+  position: absolute;
+  top: -20px;
+  left: -100px;
+  z-index: -1;
+}
+
+div.experience::after {
+  content: '3.';
+  font-size: 220px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #e61bca;
+  position: absolute;
+  top: -20px;
+  left: -110px;
+  z-index: -1;
 }
 
 div > button > a {
