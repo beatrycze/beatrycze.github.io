@@ -204,10 +204,10 @@ textarea {
 }
 
 textarea:focus, input:focus { /* jak to zrobić dobrze dla inputa? */
-    outline-offset: -2px;
-    outline-color: #ffffff;
-    outline-style: auto;
-    outline-width: 5px;
+  outline-offset: -2px;
+  outline-color: #ffffff;
+  outline-style: auto;
+  outline-width: 5px;
 }
 
 input {
@@ -225,27 +225,27 @@ input {
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #5f0783;
+  color: #5f0783;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #5f0783;
-   opacity: 1;
+  color: #5f0783;
+  opacity: 1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #5f0783;
-   opacity: 1;
+  color: #5f0783;
+  opacity: 1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #5f0783;
+  color: #5f0783;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #5f0783;
+  color: #5f0783;
 }
 
 label[for="message"] {
-    color: #5f0783;
-    font-size: 13px;
-    font-family: 'Roboto Mono', monospace;
+  color: #5f0783;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .footer {
