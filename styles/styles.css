@@ -170,13 +170,6 @@ div img {
   font-family: 'Montserrat', sans-serif;
 }
 
-#contact span {
-  text-transform: uppercase;
-  font-size: 10px;
-  color: #5f0783;
-  font-family: 'Montserrat', sans-serif;
-}
-
 #contact button {
   font-size: 15px;
   font-weight: bold;
@@ -192,9 +185,12 @@ div.contact {
   left: 180px;
 }
 
+.hello {
+  margin-right: -20px;
+}
+
 div.form {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 form > div {
@@ -204,7 +200,7 @@ form > div {
 textarea {
   background-color: transparent;
   border: 1px solid #5f0783;
-  width: 409px;
+  width: 63%;
   font-size: 13px;
   font-family: 'Roboto Mono', monospace;
   color: #5f0783;
@@ -225,7 +221,7 @@ input {
   border-bottom: 1px solid #5f0783;
   border-left: 0px;
   background-color: transparent;
-  width: 409px;
+  width: 63%;
   height: 40px;
   font-size: 13px;
   font-family: 'Roboto Mono', monospace;
@@ -255,4 +251,16 @@ label[for="message"] {
     color: #5f0783;
     font-size: 13px;
     font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+div.footer span {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #5f0783;
+  font-family: 'Montserrat', sans-serif;
 }
