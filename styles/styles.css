@@ -178,7 +178,6 @@ div img {
   background-color: transparent;
 }
 
-/* TODO bootstrap offset lub @media, żeby się centrowało */
 div.contact {
   display: inline-block;
   position: relative;
