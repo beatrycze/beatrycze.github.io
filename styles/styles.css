@@ -4,6 +4,7 @@
 
 header {
   height: 335px;
+  position: relative;
 }
 
 header, nav {
@@ -57,6 +58,20 @@ h1 {
   /*line-height: 205px;*/
 }
 
+#wave-top1 {
+  position: absolute;
+  width: 300px;
+  right: 0px;
+  bottom: 50px;
+}
+
+#wave-top2 {
+  position: absolute;
+  width: 500px;
+  right: 0px;
+  bottom: -30px;
+}
+
 a {
   text-decoration: none;
 }
@@ -107,6 +122,21 @@ h2 {
   color: #5f0783;
 }
 
+#ideas {
+  position: relative;
+}
+
+#wave-bottom {
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  bottom: -32px;
+}
+
+#projects, #culture, #ideas, #experience, #contact {
+  margin-top: 40px;
+}
+
 #projects p, #culture p, #experience p {
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
@@ -148,14 +178,9 @@ div img {
   margin: 0;
 }
 
-#culture {
-  padding-bottom: 50px;
-}
-
 #contact {
   background: linear-gradient(to left top, #9326f1, #fe6a82);
   width: 100%;
-  margin-top: 25px;
 }
 
 #contact p {
