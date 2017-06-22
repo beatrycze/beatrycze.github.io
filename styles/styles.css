@@ -49,10 +49,6 @@ header a {
   transition: color 0.2s ease-in-out;
 }
 
-/*a.link {
-  transition: all 0.7s ease-in-out;
-}*/
-
 header a:hover {
   color: #ffffff;
 }
@@ -218,6 +214,7 @@ div img {
 
 #contact button:hover {
   background-color: #ffffff;
+  transform: scale(1.1);
 }
 
 div.contact {
