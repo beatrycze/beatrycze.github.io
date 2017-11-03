@@ -1,2 +1,2 @@
 # beatrycze.github.io/the-awwwesomes-workshop/
-Strona kursu The Awwwesomes
+Layout coded during The Awwwesomes's workshop.
